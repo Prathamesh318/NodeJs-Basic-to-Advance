@@ -40,7 +40,7 @@ export const addEmployee = (req, res) => {
                 return res.status(200).json({
                     success: true,
                     message: "Created",
-                    data: data
+                    data: result[0]
                 });
             }
         );
